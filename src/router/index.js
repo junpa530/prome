@@ -26,6 +26,10 @@ const router = new Router({
                     path: '/children'
                 }
             ]
+        },
+        {
+            path: '/test',
+            component: views.ComponentForView
         }
     ]
 });
